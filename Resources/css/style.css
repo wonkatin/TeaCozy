@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.navigation span{
+  display: flex;
+  margin: 10px;
+  padding-left: 10px;
+}
+.navigation a {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.logo img {
+  display: flex;
+  margin: 10px;
+  height: 50px;
+}
