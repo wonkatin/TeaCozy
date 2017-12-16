@@ -2,6 +2,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0
 }
 header {
   display: flex;
@@ -9,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 1;
   border-bottom: 1px solid seashell;
   width: 100%;
   background-color: black;
@@ -52,11 +57,47 @@ header {
   width: 1200px;
   background-image: url(../images/backgrounds/img-mission-background.jpg);
 }
-.banner {
+.missionbanner {
   background-color: black;
   width: 100%;
   font-family: Helvetica;
   color: seashell;
   opacity: 0.9;
   text-align: center;
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  width: 1000px;
+
+}
+.featuredbanner {
+  text-align: center;
+
+}
+.featuredboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*border: 1px solid white;*/
+}
+.box img {
+  height: 200px;
+  width: 300px;
+}
+.box.blitz {
+  margin-right: 50px;
+}
+.box.rum {
+  margin-right: 50px;
+}
+.box.myrtle {
+  margin-right: 50px;
 }
