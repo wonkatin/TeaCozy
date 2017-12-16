@@ -101,3 +101,32 @@ header {
 .box.myrtle {
   margin-right: 50px;
 }
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/backgrounds/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+
+}
+.locations h2 {
+  margin-bottom: 15px;
+}
+.locationsboxes {
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+
+}
+.locationsbox {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 300px;
+  background-color: black;
+}
+.locationsbox.margin {
+  margin-right: 40px;
+}
