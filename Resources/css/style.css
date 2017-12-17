@@ -102,14 +102,16 @@ header {
   margin-right: 50px;
 }
 .locations {
+  display: block;
   /*display: flex;
   flex-direction: column;
   align-items: center;*/
   background-image: url(../images/backgrounds/img-locations-background.jpg);
-  height: 500px;
+  height: 515px;
   width: 1200px;
-  padding-top: 60px;
+  padding-top: 50px;
   text-align: center;
+
 }
 .locations h2 {
   margin-bottom: 15px;
@@ -120,22 +122,29 @@ header {
   justify-content: center;
   width: 1100;
   margin: auto;
-  padding-top: 5px;
+  /*padding-top: 5px;*/
 
 }
 .location {
-  /*display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;*/
+  justify-content: center;
   text-align: center;
-  height:250px;
-  width: 300px;
-  /*flex-basis: 280px;*/
+  /*height:250px;
+  width: 300px;*/
+  flex-basis: 280px;
   background-color: black;
   opacity: 1;
   padding: 10px;
   margin: 5px 20px;
 }
+.location h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
