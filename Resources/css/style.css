@@ -117,16 +117,25 @@ header {
 .locationsboxes {
   display: flex;
   flex-direction: row;
-  opacity: 1;
+
 
 }
 .locationsbox {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   height: 280px;
   width: 300px;
   background-color: black;
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
 }
-.locationsbox.margin {
-  margin-right: 40px;
+/*.locationsbox.margin {
+  margin-right: 40px;*/
+}
+h3  {
+  padding: 10px;
+  margin: 0;
 }
